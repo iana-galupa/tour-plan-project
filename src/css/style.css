@@ -29,6 +29,7 @@
 
 body {
   font-family: "Muli-Regular!", sans-serif;
+  color: #333;
 }
 
 .container {
@@ -344,4 +345,67 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.header {
+  background-color: #fff;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+.header-top__search {
+  margin-right: 415px;
+}
+
+.logo {
+  margin-right: 108px;
+}
+
+.search {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  height: 40px;
+}
+.search__input {
+  width: 350px;
+  height: 100%;
+  padding-left: 23px;
+  padding-right: 75px;
+  background-color: #F5FAFE;
+  border: none;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333;
+}
+.search__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #EC1F46;
+  width: 65px;
+  height: 100%;
+  border: none;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+.user__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 18px;
+}
+.user__name {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
 }/*# sourceMappingURL=style.css.map */
