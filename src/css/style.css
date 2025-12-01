@@ -358,9 +358,33 @@ template {
 .navbar-top__search {
   margin-right: 415px;
 }
+.navbar-bottom {
+  background-color: #0A223D;
+}
+.navbar-menu {
+  padding: 31px 0;
+}
+.navbar-menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar-menu__link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+}
 
 .logo {
   margin-right: 108px;
+}
+.logo__image {
+  width: 177px;
 }
 
 .search {
@@ -408,4 +432,43 @@ template {
   text-decoration: none;
   font-size: 14px;
   line-height: 18px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .navbar-top {
+    padding: 30px 0;
+  }
+  .navbar-top__search {
+    margin-right: 80px;
+  }
+  .navbar-menu {
+    padding: 22px 0;
+  }
+  .navbar-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .logo {
+    margin-right: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 700px;
+    width: 92%;
+  }
+  .navbar-top__search {
+    margin-right: 50px;
+  }
+  .logo {
+    margin-right: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
