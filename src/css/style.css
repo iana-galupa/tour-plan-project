@@ -458,6 +458,9 @@ template {
   .logo__image {
     width: 132px;
   }
+  .search__input {
+    width: 340px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -478,6 +481,7 @@ template {
     background-color: #fff;
     width: 16px;
     height: 11px;
+    padding: 0;
     border: none;
     cursor: pointer;
   }
